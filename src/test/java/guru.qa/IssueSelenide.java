@@ -21,7 +21,7 @@ public class IssueSelenide {
 
         $(linkText("eroshenkoam/allure-example")).click();
         $(partialLinkText("Issues")).click();
-        $(byText("68")).should(Condition.visible);
+        $(byText("69 nice")).should(Condition.visible);
     }
 
 }
